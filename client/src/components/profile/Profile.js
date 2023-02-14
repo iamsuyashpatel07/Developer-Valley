@@ -8,6 +8,7 @@ import { getProfileById } from '../../actions/profile';
 import ProfileAbout from './ProfileAbout';
 import ProfileExperience from './ProfileExperience';
 import ProfileEducation from './ProfileEducation';
+import ProfileGithub from './ProfileGithub';
 
 const Profile = ({
   getProfileById,
@@ -34,7 +35,7 @@ const Profile = ({
                 Edit Profile
               </Link>
             )}
-          <div class='profile-grid my-1'>
+          <div className='profile-grid my-1'>
             <ProfileTop profile={profile} />
             <ProfileAbout profile={profile} />
             <div className='profile-exp bg-white p-2'>
@@ -67,6 +68,9 @@ const Profile = ({
                 <h4>No Education Credential</h4>
               )}
             </div>
+            {profile.githubusername && (
+              <ProfileGithub username={profile.githubusername} />
+            )}
           </div>
         </Fragment>
       )}
@@ -76,7 +80,7 @@ const Profile = ({
 
 Profile.propTypes = {
   getProfileById: PropTypes.func.isRequired,
-  profile: PropTypes.func.isRequired,
+  profile: PropTypes.object.isRequired,
   auth: PropTypes.object.isRequired,
 };
 
