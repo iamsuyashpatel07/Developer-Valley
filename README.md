@@ -38,7 +38,7 @@ $Root\social-media-app> yarn run application
 # Technologies/Methodologies Used 
 
 - Builded backend API with Node.js & Express.
-- Protecting routes/endpoints with JWT (JSON Web Tokens).
+- Protected routes/endpoints with JWT (JSON Web Tokens).
 - Used MongoDB as Database.
 - Integrated React Frontend with our backend in an elegant way for creating a great workflow.
 - Used Redux for app state management.
