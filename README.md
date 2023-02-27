@@ -5,8 +5,8 @@
 # Setup
 
 ```cmd
-git clone https://github.com/iamsuyashpatel07/social-media-app.git
-cd social-media-app
+git clone https://github.com/iamsuyashpatel07/Developer-Valley.git
+cd Developer-Valley
 yarn
 cd client
 yarn
