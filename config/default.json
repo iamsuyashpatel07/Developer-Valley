@@ -1,3 +1,6 @@
 {
-  "underConstruction": "Needed to think"
+  "mongoURI": "mongodb+srv://...",
+  "jwtSecret": "my_secret_token",
+  "githubClientId": "ClienID",
+  "githubSecret": "SecretKey"
 }
