@@ -45,3 +45,4 @@ $Root\social-media-app> yarn run application
 - Created reducers and actions for our resources.
 - Tested with the Redux Chrome extension. (Redux Devtool).
 - Used Moment Package to Format TimeStamp.
+- Bcrypt to hash passwords.
