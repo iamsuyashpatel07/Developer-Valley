@@ -1,4 +1,7 @@
-﻿# Preview
+# About
+A MERN STACK social-media-app for developers to create there profile online and to show there details on one Page. 
+
+# Preview
 
 [Glimpse](https://user-images.githubusercontent.com/59373438/221539511-5f396d86-a46a-4344-a138-8f6e31df2cef.mp4)
 
