@@ -7,12 +7,15 @@ A MERN STACK social-media-app for developers to create there profile online and 
 
 # Setup
 
+To Setup this project in Development Environment, You must have
+
+- [Node](https://nodejs.org/en/) >=v16.0.0
+- [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/)
+
 ```cmd
 git clone https://github.com/iamsuyashpatel07/Developer-Valley.git
 cd Developer-Valley
-yarn
-cd client
-yarn
+docker compose up
 ```
 
 ### Add your credentials
@@ -36,7 +39,7 @@ $Root\social-media-app> yarn run application
 ```
 
 # Technologies/Methodologies Used 
-
+- Used Docker
 - Builded backend API with Node.js & Express.
 - Protected routes/endpoints with JWT (JSON Web Tokens).
 - Used MongoDB as Database.
