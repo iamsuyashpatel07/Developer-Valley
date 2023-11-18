@@ -26,8 +26,8 @@ docker compose up
 {
   "mongoURI": "Your_Database_URL",
   "jwtSecret": "my_secret_token",
-  "githubClientId": "Your_Github_ClientID",
-  "githubSecret": "Your_Github_Secret_KEY"
+  "GITHUB_CLIENTID": "Your_Github_ClientID",
+  "GITHUB_SECRET": "Your_Github_Secret_KEY"
 }
 
 ```
