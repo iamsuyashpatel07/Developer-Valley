@@ -1,3 +1,8 @@
+# ignoring node_modules folder
 node_modules
 
-*.md
+#ignoring all.md files 
+*.md 
+
+#ignoring all env files
+*.env
