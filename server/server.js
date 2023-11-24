@@ -13,7 +13,7 @@ connectDB();
 
 app.use(express.json({ extende: false }));
 
-app.get('/', (req, res) => res.send('Api Running'));
+// app.get('/', (req, res) => res.send('Api Running'));
 
 // Define Routes
 
