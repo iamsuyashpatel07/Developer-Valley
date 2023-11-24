@@ -1,9 +1,9 @@
 import axios from "axios";
 
+// storing token in localstorage
 const setAuthToken = (token) => {
   if (token) {
     axios.defaults.headers.common["x-auth-token"] = token;
-    console.log(token, "auth/token");
   } else {
     delete axios.defaults.headers.common["x-auth-token"];
   }
