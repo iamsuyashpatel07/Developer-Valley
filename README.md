@@ -15,27 +15,23 @@ To Setup this project in Development Environment, You must have
 ```cmd
 git clone https://github.com/iamsuyashpatel07/Developer-Valley.git
 cd Developer-Valley
-docker compose up
 ```
 
 ### Add your credentials
 
-**_Navigate_** to `$Root\social-media-app\config\default.json` and add the following
+**_Update_** env file in server 
 
 ```JavaScript
-{
-  "mongoURI": "Your_Database_URL",
-  "jwtSecret": "my_secret_token",
-  "GITHUB_CLIENTID": "Your_Github_ClientID",
-  "GITHUB_SECRET": "Your_Github_Secret_KEY"
-}
-
+MONGODB_URI="YOUR_MONGODB_URI"
+JWT_SECRET="YOUR_JWT_SECRET_KEY"
+GITHUB_CLIENTID="YOUR_GITHUB_CLIENTID"
+GITHUB_SECRET= "YOUR_GITHUB_SECRET"
 ```
 
 ### Run
 
 ```
-$Root\social-media-app> yarn run application
+$Root\> docker compose up
 ```
 
 # Technologies/Methodologies Used 

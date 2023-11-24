@@ -1,6 +1,5 @@
 const express = require('express');
 const request = require('request');
-const config = require('config');
 const router = express.Router();
 const auth = require('../../middleware/auth');
 const { check, validationResult, body } = require('express-validator');
@@ -9,7 +8,6 @@ const { check, validationResult, body } = require('express-validator');
 const Profile = require('../../models/Profile');
 const User = require('../../models/User');
 const Post = require('../../models/Post');
-const { response } = require('express');
 
 // @route   GET api/profile/me
 // @desc    Test route
