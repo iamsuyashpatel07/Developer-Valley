@@ -13,6 +13,7 @@ const Landing = ({ isAuthenticated }) => {
       <div className='dark-overlay'>
         <div className='landing-inner'>
           <h1 className='x-large'>Developer Valley</h1>
+          <span className='highlight'><em>A place that developers call their home.</em></span>
           <p className='lead'>
             Create a developer profile/portfolio, share posts and get help from
             other developers
